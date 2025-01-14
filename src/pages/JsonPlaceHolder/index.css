@@ -1,0 +1,52 @@
+.container-pagination {
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+
+    .card {
+        width: 30%;
+        height: 340px;
+        padding: 15px;
+        border-radius: 7px;
+        border: 1px solid rgb(111, 110, 110);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        p {
+            font-size: 18px;
+            letter-spacing: 0.2px;
+        }
+    }
+}
+
+.pagination {
+    display: flex;
+    gap: 25px;
+    margin-left: 760px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+    .select {
+        width: 100px;
+        padding: 3px;
+        border-radius: 5px;
+        outline: none;
+        border: 2px solid #BC8E5B;
+        color: #0f0e0e;
+    }
+}
